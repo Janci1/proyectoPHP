@@ -1,0 +1,31 @@
+h1{
+    font-size: 2em;
+    font-family: var(--font-secondary);
+    text-align: center;
+
+}
+
+.contenedorNoticia{
+    margin: 0 2vw;
+}
+
+.noticia{
+    margin: 60px 0;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+    justify-content: center;
+    background-color: var(--primary-color-2);
+}
+
+.noticiaImagen{
+    width: 45vh;
+    height: max-content;
+}
+
+.noticiaContenido{
+    margin: 4vh 6vh;
+    font-family: var(--font-secondary);
+}
+
+

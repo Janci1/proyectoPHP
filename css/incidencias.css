@@ -1,0 +1,94 @@
+/* Estilos específicos para la página de incidencias del administrador */
+
+/* Contenedores principales */
+main {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: var(--primary-color-4);
+    text-align: center;
+    font-family: var(--font-secondary);
+    margin-bottom: 2rem;
+}
+
+/* Contenedor del listado de incidencias */
+.listadoNoticias {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.listadoNoticias h2 {
+    color: var(--primary-color-4);
+    text-align: center;
+    font-family: var(--font-secondary);
+}
+
+.noticiaFija {
+    background-color: var(--primary-color-2); /* AÑADIDO: Color de fondo */
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.noticiaContenido h2 {
+    margin: 0 0 0.5rem 0;
+    color: var(--primary-color-5);
+    font-family: var(--font-secondary);
+}
+
+.noticiaMeta {
+    color: var(--primary-color-4);
+    font-size: 0.9rem;
+    margin: 0 0 1rem 0;
+}
+
+.noticiaTexto {
+    color: var(--primary-color-5);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.noticiaBotones {
+    margin-top: 1rem;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+/* Estilos de botones */
+.botonPrincipal,
+.botonGuardar,
+.botonBorrar,
+.botonCancelar {
+    font-family: var(--font-secondary);
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--text-color-2);
+}
+
+.botonBorrar {
+    background-color: var(--button-color-1);
+}
+
+.botonBorrar:hover {
+    background-color: var(--button-color-2);
+}
+
+.botonCancelar {
+    background-color: #888;
+}
+
+.botonCancelar:hover {
+    background-color: #666;
+}

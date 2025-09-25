@@ -1,0 +1,23 @@
+h1{
+    font-size: 2em;
+    font-family: var(--font-secondary);
+    text-align: center;
+
+}
+.nosotrosContenido{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.nosotrosImagen{
+    width: 40vh;
+    height: auto;
+    margin: 4vh 0;
+}
+
+.nosotrosTexto{
+    margin: 0 10vh;
+    font-family: var(--font-secondary);
+    font-size:  large;
+}

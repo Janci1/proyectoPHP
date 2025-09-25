@@ -1,0 +1,147 @@
+/* Contenedores principales */
+main {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: var(--primary-color-4);
+    text-align: center;
+    font-family: var(--font-secondary);
+    margin-bottom: 2rem;
+}
+
+/*botón de nueva cita */
+.botonNuevaNoticia { /* Misma clase que en admin para mantener la coherencia */
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* botones generales */
+.botonPrincipal,
+.botonGuardar,
+.botonBorrar,
+.botonCancelar {
+    font-family: var(--font-secondary);
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--text-color-2);
+}
+
+.botonPrincipal {
+    background-color: var(--button-color-1);
+}
+
+.botonPrincipal:hover {
+    background-color: var(--button-color-2);
+}
+
+.botonGuardar {
+    background-color: var(--primary-color-3);
+    margin-right: 10px;
+}
+
+.botonGuardar:hover {
+    background-color: var(--primary-color-4);
+}
+
+.botonBorrar {
+    background-color: var(--button-color-1);
+}
+
+.botonBorrar:hover {
+    background-color: var(--button-color-2);
+}
+
+.botonCancelar {
+    background-color: #888;
+}
+
+.botonCancelar:hover {
+    background-color: #666;
+}
+
+/* Formularios */
+.formularioNoticia { /* Misma clase que en admin para mantener la coherencia */
+    background-color: var(--primary-color-2);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.formularioNoticia h2 {
+    color: var(--primary-color-5);
+    font-family: var(--font-secondary);
+    text-align: center;
+    margin-top: 0;
+}
+
+.formularioNoticia label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color-5);
+    font-weight: bold;
+    font-family: var(--font-secondary);
+}
+
+.formularioNoticia input,
+.formularioNoticia textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color-4);
+    box-sizing: border-box;
+}
+
+/* Listado de citas */
+.listadoNoticias { 
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.listadoNoticias h2 {
+    color: var(--primary-color-4);
+    text-align: center;
+    font-family: var(--font-secondary);
+}
+
+.contenedorNoticiaAdmin { 
+    background-color: var(--primary-color-2);
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.noticiaFija,
+.noticiaEditable {
+    display: flex;
+    flex-direction: column;
+}
+
+.noticiaMeta {
+    color: var(--primary-color-4);
+    font-size: 0.9rem;
+    margin: 0 0 1rem 0;
+}
+
+.noticiaTexto {
+    color: var(--primary-color-5);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.noticiaBotones {
+    margin-top: 1rem;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}

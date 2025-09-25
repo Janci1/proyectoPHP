@@ -1,0 +1,102 @@
+/* Estilos específicos para la página de administración de usuarios */
+
+/* Contenedores principales */
+main {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: var(--primary-color-4);
+    text-align: center;
+    font-family: var(--font-secondary);
+    margin-bottom: 2rem;
+}
+
+/* Estilo para los formularios (tanto de creación como de edición) */
+form {
+    background-color: var(--primary-color-2);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    color: var(--primary-color-5);
+    font-family: var(--font-secondary);
+    text-align: center;
+    margin-top: 0;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color-5);
+    font-weight: bold;
+    font-family: var(--font-secondary);
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color-4);
+    box-sizing: border-box;
+}
+
+/* Contenedor general de usuarios */
+.listadoUsuarios {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Contenedor de cada usuario */
+.usuario-item {
+    background-color: var(--primary-color-2);
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la información del usuario */
+.usuario-info h3 {
+    margin: 0 0 0.5rem 0;
+    color: var(--primary-color-5);
+    font-family: var(--font-secondary);
+}
+
+.usuario-info p {
+    color: var(--primary-color-5);
+    line-height: 1.6;
+    margin: 0.5rem 0;
+}
+
+/* Botones */
+.button-container {
+    margin-top: 1rem;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+button {
+    font-family: var(--font-secondary);
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--text-color-2);
+    background-color: var(--button-color-1);
+}
+
+#formularioCrearUsuario {
+    display: none;
+}

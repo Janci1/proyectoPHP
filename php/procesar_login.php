@@ -38,7 +38,7 @@ if ($resultado->num_rows === 1) {
         if ($_SESSION['rol'] === 'admin') {
             header('Location: ../index.php'); // Página para administradores 
         } else { // Rol 'user'
-            header('Location: ../noticias.php'); // Página de perfil de usuario 
+            header('Location: ../index.php'); // Página de perfil de usuario 
         }
         exit();
 

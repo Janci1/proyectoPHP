@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     if (confirmar) {
                         const formTemporal = document.createElement('form');
                         formTemporal.method = 'POST';
-                        formTemporal.action = 'php/procesar_usuario.php';
+                        formTemporal.action = 'php/procesar_usuarios.php';
 
                         const inputBorrar = document.createElement('input');
                         inputBorrar.type = 'hidden';
@@ -29,13 +29,4 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                 });
             });
-
-            // Opcional: Ocultar el mensaje de estado después de unos segundos
-            const mensajeEstado = document.querySelector('.mensaje-estado');
-            if (mensajeEstado) {
-                setTimeout(() => {
-                    mensajeEstado.style.opacity = '0';
-                    setTimeout(() => mensajeEstado.remove(), 500); // Eliminar después de la transición
-                }, 5000); // Ocultar después de 5 segundos
-            }
         });

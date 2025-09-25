@@ -1,5 +1,5 @@
 <?php
-define('DB_HOST', '127.0.0.1'); //definimos el host de la base de datos de infinityfree
+define('DB_HOST', '127.0.0.1'); //definimos el host de la base de datos
 define('DB_USER', 'root'); //definimos el usuario de la base de datos DB = data base
 define('DB_PASSWORD', ''); //definimos la contraseña
 define('DB_NAME', 'otakutattoo'); //definimos el nombre 

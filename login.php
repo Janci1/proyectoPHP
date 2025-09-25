@@ -10,7 +10,7 @@ include 'php/helpers.php'; //navegador y footer
         <meta charset="UTF-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title><?php echo OtakuTatto; ?> - Login</title> <!-- Establece el título de la página, usando una constante PHP -->
-        <link rel="stylesheet" href="../css/estilos.css"> 
+        <link rel="stylesheet" href="css/login.css"> 
     </head>
     <body>
 
