@@ -1,8 +1,12 @@
 🎨 OtakuTattoo - Gestión de Citas y Noticias
+
 🎯 Finalidad del Proyecto
+
 OtakuTattoo es una aplicación web full-stack diseñada para gestionar un estudio de tatuajes de forma eficiente. Este proyecto permite a los usuarios registrarse y solicitar citas, mientras que los administradores pueden gestionar usuarios, administrar noticias y blog, y manejar todas las solicitudes. La finalidad es digitalizar y optimizar los procesos de un estudio de tatuajes, mejorando la comunicación con los clientes y la organización interna.
 
+
 ✨ Características Principales
+
 Gestión de Usuarios: Roles de usuario diferenciados (admin y cliente) para controlar el acceso y las funcionalidades.
 
 Sistema de Citas: Los clientes pueden solicitar y gestionar sus citas.
@@ -15,7 +19,9 @@ Control de Versiones: Proyecto gestionado con Git y alojado en GitHub.
 
 Estructura del Proyecto: Código limpio y modular, con separación de lógica de presentación.
 
+
 🛠️ Tecnologías y Herramientas Utilizadas
+
 Este proyecto pone en práctica una serie de tecnologías y buenas prácticas de desarrollo web, combinando lo siguiente:
 
 Frontend:
@@ -37,6 +43,7 @@ Git y GitHub: Para el control de versiones y colaboración.
 XAMPP / MAMP: Para crear un entorno de servidor local (Apache y MySQL).
 
 🚀 Cómo Poner en Marcha el Proyecto en Local
+
 Sigue estos sencillos pasos para tener una copia del proyecto funcionando en tu entorno local.
 
 1. Requisitos Previos
@@ -54,8 +61,9 @@ Además, necesitarás un editor de código como Visual Studio Code y un navegado
 Clonar el Repositorio:
 Abre tu terminal o Git Bash y ejecuta el siguiente comando para clonar el proyecto en tu máquina.
 
-git clone [https://github.com/tu-usuario/nombre-de-tu-repositorio.git](https://github.com/tu-usuario/nombre-de-tu-repositorio.git)
+Bash
 
+git clone https://github.com/tu-usuario/nombre-de-tu-repositorio.git
 Configurar la Base de Datos:
 
 Inicia los servicios de Apache y MySQL desde el panel de control de XAMPP/MAMP.
@@ -74,6 +82,8 @@ Abre el archivo config.php con tu editor de código.
 
 Edita las credenciales de la base de datos si es necesario (el nombre de usuario y la contraseña por defecto de XAMPP/MAMP suelen ser root y una cadena vacía, respectivamente).
 
+PHP
+
 <?php
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root'); // Tu nombre de usuario
@@ -81,7 +91,6 @@ define('DB_PASSWORD', ''); // Tu contraseña
 define('DB_NAME', 'otakutattoo');
 define('OtakuTatto', 'OtakuTatto');
 ?>
-
 Colocar el Proyecto en el Servidor Local:
 
 Copia todos los archivos y carpetas del proyecto.
@@ -99,6 +108,7 @@ Abre tu navegador web y ve a la dirección http://localhost/nombre-del-proyecto/
 ¡Listo! El proyecto debería estar funcionando.
 
 📄 Estructura del Proyecto
+
 css/: Hojas de estilo CSS.
 
 img/: Imágenes y otros recursos visuales del proyecto.
